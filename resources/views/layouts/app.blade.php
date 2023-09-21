@@ -11,6 +11,7 @@
         <link rel="preconnect" href="https://fonts.bunny.net">
         <link href="https://fonts.bunny.net/css?family=figtree:400,500,600&display=swap" rel="stylesheet" />
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 
         <!-- Scripts -->
         @vite(['resources/css/app.css', 'resources/js/app.js'])
@@ -25,8 +26,8 @@
                     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full flex items-center">
                         <div class="w-full"></div>
                         <div class="flex gap-2">
-                            <a href="#" class=" hover:bg-[#fb9111]/80 hover:text-black text-white shadow-md py-2 px-6 bg-[#FB9333] transition-colors ease-in rounded-full">Blogi</a>
-                            <a href="#" class="  text-white shadow-md py-2 px-6 bg-[#B90E0A] rounded-full hover:bg-red-500 transition-colors ease-in">Numbrid</a>
+                            <a href="{{ route('blog') }}" class=" hover:bg-[#fb9111]/80 hover:text-black text-white shadow-md py-2 px-6 bg-[#FB9333] transition-colors ease-in rounded-full">Blogi</a>
+                            <a href="{{ route('numbers') }}" class="  text-white shadow-md py-2 px-6 bg-[#B90E0A] rounded-full hover:bg-red-500 transition-colors ease-in">Numbrid</a>
                         </div>
                     </div>
                 </header>
@@ -34,24 +35,6 @@
                 <!-- Page Content -->
                 <main class="pt-24">
                     {{ $slot }}
-                    <div class="h-full flex justify-center flex-row gap-5 text-center">
-                        <button class=" flex justify-end items-center flex-col w-40 h-40 bg-[#FFEED4] rounded-3xl">
-                            <img class="h-[100px]" src="{{ asset('images/hand-holding-heart-solid.svg') }}">
-                            <p class="p-2 text-lg">Vaimne tervis</p>
-                        </button>
-                        <button class=" flex justify-end items-center flex-col w-40 h-40 bg-[#FFEED4] rounded-3xl">
-                            <img class="h-[100px]" src="{{ asset('images/child-solid.svg') }}">
-                            <p class="p-2 text-lg">Füüsiline tervis</p>
-                        </button>
-                        <button class=" flex justify-end items-center flex-col w-40 h-40 bg-[#FFEED4] rounded-3xl">
-                            <img class="h-[100px]" src="{{ asset('images/masks-theater-solid.svg') }}">
-                            <p class="p-2 text-lg">Pseudo haigused</p>
-                        </button>
-                        <button class=" flex justify-end items-center flex-col w-40 h-40 bg-[#FFEED4] rounded-3xl">
-                            <img class="h-[100px]" src="{{ asset('images/heart-pulse-solid.svg') }}">
-                            <p class="p-2 text-lg">Kiire abi</p>
-                        </button>
-                    </div>
                 </main>
             </div>
         </div>
