@@ -1,4 +1,4 @@
-* Liikmed
+** Liikmed
 
 - Merilyn Tohv - TA-22
 - Jürgen-Mark Heinmets - TA-23
