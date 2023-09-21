@@ -11,5 +11,5 @@
 
 ## Töökäik:
 ### Töövahendid: 
-> * Figma
-> * Github
+- Figma
+- Github
