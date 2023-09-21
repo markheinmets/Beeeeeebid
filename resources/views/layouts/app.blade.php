@@ -15,18 +15,18 @@
         <!-- Scripts -->
         @vite(['resources/css/app.css', 'resources/js/app.js'])
     </head>
-    <body class="font-sans antialiased ">
+    <body class="font-sans antialiased">
         <div class="min-h-screen bg-gray-100 flex ">
             @include('layouts.navigation')
 
-            <div class="flex flex-col fixed right-0 top-0 bottom-0 left-96 overflow-y-auto">
+            <div class="flex flex-col fixed right-0 top-0 bottom-0 left-0 lg:left-48 xl:left-96 overflow-y-auto">
                 <!-- Page Heading -->
-                <header class="bg-white h-24 flex items-center p-8 fixed top-0 right-0 left-96 z-50">
+                <header class="bg-white h-24 flex items-center p-8 fixed top-0 right-0 left-0 lg:left-48 xl:left-96 z-50">
                     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full flex items-center">
                         <div class="w-full"></div>
                         <div class="flex gap-2">
-                            <a href="#" class=" hover:bg-white hover:text-black text-white shadow-md py-2 px-6 bg-[#FB9333] rounded-full">Blogi</a>
-                            <a href="#" class="  text-white shadow-md py-2 px-6 bg-[#B90E0A] rounded-full">Numbrid</a>
+                            <a href="#" class=" hover:bg-[#fb9111]/80 hover:text-black text-white shadow-md py-2 px-6 bg-[#FB9333] transition-colors ease-in rounded-full">Blogi</a>
+                            <a href="#" class="  text-white shadow-md py-2 px-6 bg-[#B90E0A] rounded-full hover:bg-red-500 transition-colors ease-in">Numbrid</a>
                         </div>
                     </div>
                 </header>
