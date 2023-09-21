@@ -25,8 +25,8 @@
                     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full flex items-center">
                         <div class="w-full"></div>
                         <div class="flex gap-2">
-                            <a href="#" class=" shadow-md py-2 px-6 bg-blue-400 rounded-full">Blogi</a>
-                            <a href="#" class=" shadow-md py-2 px-6 bg-red-500 rounded-full">Numbrid</a>
+                            <a href="#" class=" hover:bg-white hover:text-black text-white shadow-md py-2 px-6 bg-[#FB9333] rounded-full">Blogi</a>
+                            <a href="#" class="  text-white shadow-md py-2 px-6 bg-[#B90E0A] rounded-full">Numbrid</a>
                         </div>
                     </div>
                 </header>
