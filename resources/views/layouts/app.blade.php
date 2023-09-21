@@ -34,20 +34,20 @@
                 <!-- Page Content -->
                 <main class="pt-24">
                     {{ $slot }}
-                    <div class="h-40 flex justify-center flex-row gap-5 text-center">
-                        <button class=" flex justify-end flex-col w-40 h-40 bg-[#FFEED4] rounded-3xl">
+                    <div class="h-full flex justify-center flex-row gap-5 text-center">
+                        <button class=" flex justify-end items-center flex-col w-40 h-40 bg-[#FFEED4] rounded-3xl">
                             <img class="h-[100px]" src="{{ asset('images/hand-holding-heart-solid.svg') }}">
                             <p class="p-2 text-lg">Vaimne tervis</p>
                         </button>
-                        <button class=" flex justify-end flex-col w-40 h-40 bg-[#FFEED4] rounded-3xl">
+                        <button class=" flex justify-end items-center flex-col w-40 h-40 bg-[#FFEED4] rounded-3xl">
                             <img class="h-[100px]" src="{{ asset('images/child-solid.svg') }}">
                             <p class="p-2 text-lg">Füüsiline tervis</p>
                         </button>
-                        <button class=" flex justify-end flex-col w-40 h-40 bg-[#FFEED4] rounded-3xl">
+                        <button class=" flex justify-end items-center flex-col w-40 h-40 bg-[#FFEED4] rounded-3xl">
                             <img class="h-[100px]" src="{{ asset('images/masks-theater-solid.svg') }}">
                             <p class="p-2 text-lg">Pseudo haigused</p>
                         </button>
-                        <button class=" flex justify-end flex-col w-40 h-40 bg-[#FFEED4] rounded-3xl">
+                        <button class=" flex justify-end items-center flex-col w-40 h-40 bg-[#FFEED4] rounded-3xl">
                             <img class="h-[100px]" src="{{ asset('images/heart-pulse-solid.svg') }}">
                             <p class="p-2 text-lg">Kiire abi</p>
                         </button>
