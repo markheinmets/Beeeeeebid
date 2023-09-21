@@ -9,7 +9,7 @@
 - Karl Andreas Mätlik - TAK-21
 - Henry Kalvi Kaalmaa - TAK-22
 
-## Töökäik:
+## Töökäik
 ### Töövahendid: 
 - Figma
 - Github
