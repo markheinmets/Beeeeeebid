@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
+use App\Models\Tags;
 
 /*
 |--------------------------------------------------------------------------
@@ -19,7 +20,11 @@ use Illuminate\Support\Facades\Route;
 // });
 
 Route::get('/', function () {
-    return view('home');
+    $tags = Tags::all();
+
+    return view('home', [
+        'tags' => $tags,
+    ]);
 })->name('home');
 
 Route::middleware('auth')->group(function () {
