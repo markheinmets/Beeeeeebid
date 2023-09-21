@@ -8,3 +8,8 @@
 - Otto Nuum - TAK-22
 - Karl Andreas Mätlik - TAK-21
 - Henry Kalvi Kaalmaa - TAK-22
+
+## Töökäik:
+### Töövahendid: 
+> * Figma
+> * Github
