@@ -6,7 +6,7 @@
     <title>Document</title>
 </head>
 <body>
-    <div side_menu>
+    <div clss ="flex.w-full.h-full.rounded-r-xl">
     <ul>
         <li>Esmaabi</li>
         <li>Ennetus</li>
