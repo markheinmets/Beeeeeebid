@@ -8,9 +8,10 @@
 <body>
     <div side_menu>
     <ul>
-            <?php
-            $menuItems = array("Esmaabi", "Ennetus", "Vaimse tervise esmaabi", "Juhendid");
-            ?>
+        <li>Esmaabi</li>
+        <li>Ennetus</li>
+        <li>Vaimse tervise esmaabi</li>
+        <li> Juhendid</li>
     </ul>
     </div>
 </body>
