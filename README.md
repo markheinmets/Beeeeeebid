@@ -13,3 +13,10 @@
 ### Töövahendid: 
 - Figma
 - Github
+
+
+## Kuidas rakendad selles projektis õpitut järgmistes arendusprojektides?
+
+## Üks pehme oskus, mida õppisin ja endas arendasin?
+
+## Üks tehniline oskus, mida õppisin ja endas arendasin?
