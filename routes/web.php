@@ -3,6 +3,7 @@
 use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
 use App\Models\Tags;
+use App\Models\Esmaabi;
 
 /*
 |--------------------------------------------------------------------------
@@ -20,16 +21,33 @@ use App\Models\Tags;
 // });
 
 Route::get('/', function () {
-    $tags = Tags::all();
+    $tags = Tags::paginate(15);
+    $esmaabi = Esmaabi::paginate(3);
 
     return view('home', [
         'tags' => $tags,
+        'esmaabi' => $esmaabi,
     ]);
 })->name('home');
 
 Route::get('/symptom', function () {
-    return view('symptom');
+    $tags = Tags::paginate(15);
+    return view('symptom', [
+        'tags' => $tags,
+    ]);
 })->name('symptom');
+
+Route::get('/numbers', function () {
+    return view('numbers');
+})->name('numbers');
+
+Route::get('/first-aid/{slug}', function () {
+    return view('esmaabi');
+})->name('esmaabi');
+
+Route::get('/blog', function () {
+    return view('blog');
+})->name('blog');
 
 Route::middleware('auth')->group(function () {
     Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');
