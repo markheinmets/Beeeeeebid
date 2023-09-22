@@ -18,9 +18,12 @@
 ## Kuidas rakendad selles projektis õpitut järgmistes arendusprojektides?
 - Jürgen-Mark Heinmets - Lihtsalt
 - Merilyn tohv - oskan paremini inimesi rääkima saada ja abi küsima.
+- Kevin Kangur - oskan abi otsida ja leida mida on vaja teha
 ## Üks pehme oskus, mida õppisin ja endas arendasin?
 - Jürgen-Mark Heinmets - paremini seletama oma soovi, mida nt leheküljel näha soovin.
 - Merilyn Tohv - Suhtlemisoskust ja projektijuhtimine
+- Kevin Kangur - tiimikaaslastega suhtlemine selles mida vaja on teha
 ## Üks tehniline oskus, mida õppisin ja endas arendasin?
 - Jürgen-Mark Heinmets - githubis oskan midagi teha.
 - Merilyn Tohv - Oskan clone projekti tööle panna, oskan ühendada laraveli lehti.
+- Kevin Kangur - sain teada rohkem Laravelist ja Tailwindist
