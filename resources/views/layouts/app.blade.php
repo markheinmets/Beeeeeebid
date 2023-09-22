@@ -16,7 +16,7 @@
         <!-- Scripts -->
         @vite(['resources/css/app.css', 'resources/js/app.js'])
     </head>
-    <body class="font-sans antialiased ">
+    <body class="font-sans antialiased scroll-smooth">
         <div class="min-h-screen flex ">
             @include('layouts.navigation')
 
@@ -35,8 +35,15 @@
                 <!-- Page Content -->
                 <main class="pt-24">
                     {{ $slot }}
+                    <footer class="bg-[#FFDFC1] py-5">
+                        <div class="contents text-center">
+                            <p class="text-[26px]">Meie info on üle vaadatud </p>
+                            <p class="text-[26px] text-[#fb9333]">spetsialistide poolt</p>
+                        </div>
+                    </footer>
                 </main>
             </div>
         </div>
     </body>
 </html>
+

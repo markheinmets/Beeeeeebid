@@ -30,10 +30,21 @@ Route::get('/', function () {
     ]);
 })->name('home');
 
-Route::get('/symptom', function () {
+Route::get('/juhendid', function () {
     $tags = Tags::paginate(15);
+    return view('juhendid', [
+        'tags' => $tags,
+    ]);
+})->name('juhendid');
+
+
+Route::get('/symptom/{slug}', function ($slug) {
+
+    $tags = Tags::paginate(15);
+    $symptom = Esmaabi::find($slug);
     return view('symptom', [
         'tags' => $tags,
+        'symptom' => $symptom,
     ]);
 })->name('symptom');
 
@@ -48,6 +59,8 @@ Route::get('/first-aid/{slug}', function () {
 Route::get('/blog', function () {
     return view('blog');
 })->name('blog');
+
+Route::get('/download-pdf', 'PdfController@download');
 
 Route::middleware('auth')->group(function () {
     Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');
