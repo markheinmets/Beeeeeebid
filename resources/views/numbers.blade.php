@@ -34,7 +34,7 @@
                     </ul>
                 </div>
                 <div class="flex flex-col gap-2 p-4 border-2 border-[#FFF0DA] rounded-2xl">
-                    <h1 class="text-2xl font-bold">Mürgistusteabekeskuse ööpäevaringne infotelefon</h1>
+                    <h1 class="text-2xl font-bold break-words  hyphens-manual">Mürgistusteabe&shy;keskuse ööpäevaringne infotelefon</h1>
                     <p>Telefoni nr:</p>
                     <ul class="list-disc pl-8">
                         <li class="">16662</li>
