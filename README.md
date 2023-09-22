@@ -17,7 +17,10 @@
 
 ## Kuidas rakendad selles projektis õpitut järgmistes arendusprojektides?
 - Jürgen-Mark Heinmets - Lihtsalt
+- Merilyn tohv - oskan paremini inimesi rääkima saada ja abi küsima.
 ## Üks pehme oskus, mida õppisin ja endas arendasin?
-- Jürgen-Mark Heinmets - paremini seletama oma soovi, mida nt leheküljel näha soovin. 
+- Jürgen-Mark Heinmets - paremini seletama oma soovi, mida nt leheküljel näha soovin.
+- Merilyn Tohv - Suhtlemisoskust ja projektijuhtimine
 ## Üks tehniline oskus, mida õppisin ja endas arendasin?
-- Jürgen-Mark Heinmets - githubis oskan midagi teha. 
+- Jürgen-Mark Heinmets - githubis oskan midagi teha.
+- Merilyn Tohv - Oskan clone projekti tööle panna, oskan ühendada laraveli lehti.
