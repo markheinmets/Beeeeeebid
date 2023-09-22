@@ -110,40 +110,45 @@
                     <h1 class="text-5xl font-bold text-[#331B3B]">Ennetavad tegevused</h1>
                     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
                         <div class="w-full group h-full bg-white border-2 border-[#ffdfb0] md:border-[#FFF0DA] p-8 flex flex-col rounded-2xl md:hover:-translate-y-2 transition-all ease-in-out shadow-xl md:shadow-none md:hover:shadow-xl  md:hover:border-[#ffdfb0]">
-                            <img src="{{ asset('images/Icon_1.png') }}" alt="" class="w-24">
-                            <h1 class="font-bold text-2xl mt-8 mb-4">Ennetav tegevus 1</h1>
+
+                            <img src="{{ asset('icons/Icon_1.png') }}" alt="" class="w-24">
+                            <h1 class="font-bold text-2xl mt-8 mb-4">Ärevus</h1>
                             <p>
-                                Langsung dari Kebun Sendiri yang 
-                                tersebar di setiap provinsi
-                                memiliki cabang toko Jez Salad.
-                                Langsung dari Kebun Sendiri yang 
-                                tersebar di setiap provinsi
+                                On meie keha reaktsioon 
+                                eeldatavale ohule:
+                                hirm või kartus selle ees,
+                                mis võib juhtuda. Me kõik 
+                                kogeme oma elus ärevust.
                             </p>
-                            <a href="#" class="flex mt-10 w-fit py-2 px-4 rounded-full bg-[#FB9333] md:bg-transparent md:group-hover:bg-[#FB9333] transition-all ease-in-out items-center">Loe edasi <x-heroicon-o-arrow-right class="w-5 h-5 text-black ml-1"/></a>
+                            <a href="{{ route('anxiety') }}" class="flex mt-10 w-fit py-2 px-4 rounded-full bg-[#FB9333] md:bg-transparent md:group-hover:bg-[#FB9333] transition-all ease-in-out items-center">Loe edasi <x-heroicon-o-arrow-right class="w-5 h-5 text-black ml-1"/></a>
                         </div>
                         <div class="w-full group h-full bg-white border-2 border-[#ffdfb0] md:border-[#FFF0DA] p-8 flex flex-col rounded-2xl md:hover:-translate-y-2 transition-all ease-in-out shadow-xl md:shadow-none md:hover:shadow-xl  md:hover:border-[#ffdfb0]">
-                            <img src="{{ asset('images/Icon_2.png') }}" alt="" class="w-24">
-                            <h1 class="font-bold text-2xl mt-8 mb-4">Ennetav tegevus 2</h1>
+
+                            <img src="{{ asset('icons/Icon_2.png') }}" alt="" class="w-24">
+                            <h1 class="font-bold text-2xl mt-8 mb-4">Ebakindlus</h1>
                             <p>
-                                Langsung dari Kebun Sendiri yang 
-                                tersebar di setiap provinsi
-                                memiliki cabang toko Jez Salad.
-                                Langsung dari Kebun Sendiri yang 
-                                tersebar di setiap provinsi
+                                Enesekindlus on aktsepteeriv, 
+                                usalduslik ja realistlik suhtumine
+                                enda oskustesse, võimetesse ja 
+                                väärtustesse. Eneses kahtlemine 
+                                võib aga tabada meid kõiki, eriti
+                                kui julgeme mugavustsoonist väljuda.
                             </p>
-                            <a href="#" class="flex mt-10 w-fit py-2 px-4 rounded-full bg-[#FB9333] md:bg-transparent md:group-hover:bg-[#FB9333] transition-all ease-in-out items-center">Loe edasi <x-heroicon-o-arrow-right class="w-5 h-5 text-black ml-1"/></a>
+                            <a href="{{ route('uncertainty') }}" class="flex mt-10 w-fit py-2 px-4 rounded-full bg-[#FB9333] md:bg-transparent md:group-hover:bg-[#FB9333] transition-all ease-in-out items-center">Loe edasi <x-heroicon-o-arrow-right class="w-5 h-5 text-black ml-1"/></a>
                         </div>
                         <div class="w-full group h-full bg-white border-2 border-[#ffdfb0] md:border-[#FFF0DA] p-8 flex flex-col rounded-2xl md:hover:-translate-y-2 transition-all ease-in-out shadow-xl md:shadow-none md:hover:shadow-xl  md:hover:border-[#ffdfb0]">
-                            <img src="{{ asset('images/Icon_3.png') }}" alt="" class="w-24">
-                            <h1 class="font-bold text-2xl mt-8 mb-4">Ennetav tegevus 3</h1>
+
+                            <img src="{{ asset('icons/Icon_3.png') }}" alt="" class="w-24">
+                            <h1 class="font-bold text-2xl mt-8 mb-4">Stress</h1>
                             <p>
-                                Langsung dari Kebun Sendiri yang 
-                                tersebar di setiap provinsi
-                                memiliki cabang toko Jez Salad.
-                                Langsung dari Kebun Sendiri yang 
-                                tersebar di setiap provinsi
+                                On pingeseisund, mis on reaktsioon 
+                                meie keha koormusele ja nõudlusele.
+                                Lühiajaline stress võib olla positiivne,
+                                aidates meid ohuolukorras, kuid
+                                pikaajaline stress võib olla kahjustada
+                                tervist.
                             </p>
-                            <a href="#" class="flex mt-10 w-fit py-2 px-4 rounded-full bg-[#FB9333] md:bg-transparent md:group-hover:bg-[#FB9333] transition-all ease-in-out items-center">Loe edasi <x-heroicon-o-arrow-right class="w-5 h-5 text-black ml-1"/></a>
+                            <a href="{{ route('stress') }}" class="flex mt-10 w-fit py-2 px-4 rounded-full bg-[#FB9333] md:bg-transparent md:group-hover:bg-[#FB9333] transition-all ease-in-out items-center">Loe edasi <x-heroicon-o-arrow-right class="w-5 h-5 text-black ml-1"/></a>
                         </div>
                     </div>
                     <div class="w-full h-fit flex justify-end">

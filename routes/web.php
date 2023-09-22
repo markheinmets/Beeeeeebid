@@ -22,7 +22,7 @@ use App\Models\Esmaabi;
 
 Route::get('/', function () {
     $tags = Tags::paginate(15);
-    $esmaabi = Esmaabi::paginate(3);
+    $esmaabi = Esmaabi::paginate();
 
     return view('home', [
         'tags' => $tags,
@@ -67,5 +67,29 @@ Route::middleware('auth')->group(function () {
     Route::patch('/profile', [ProfileController::class, 'update'])->name('profile.update');
     Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
 });
+
+Route::get('/anxiety', function () {
+    $tags = Tags::paginate(15);
+
+    return view('anxiety', [
+        'tags' => $tags,
+    ]);
+})->name('anxiety');
+
+Route::get('/uncertainty', function () {
+    $tags = Tags::paginate(15);
+
+    return view('uncertainty', [
+        'tags' => $tags,
+    ]);
+})->name('uncertainty');
+
+Route::get('/stress', function () {
+    $tags = Tags::paginate(15);
+
+    return view('stress', [
+        'tags' => $tags,
+    ]);
+})->name('stress');
 
 require __DIR__.'/auth.php';
