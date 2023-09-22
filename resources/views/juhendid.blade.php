@@ -1,6 +1,6 @@
 <x-app-layout>
 
-    <div class="p-4 h-fit flex flex-col gap-4">
+    <div class="p-4 h-fit flex flex-col gap-4 mb-96">
         <div class=" h-fit flex flex-col relative px-8 lg:px-16 xl:px-32 rounded-xl gap-8">
             <h1 class="text-5xl font-bold text-[#331B3B]">Juhendid</h1>
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">

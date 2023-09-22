@@ -110,8 +110,6 @@
                     <h1 class="text-5xl font-bold text-[#331B3B]">Ennetavad tegevused</h1>
                     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
                         <div class="w-full group h-full bg-white border-2 border-[#ffdfb0] md:border-[#FFF0DA] p-8 flex flex-col rounded-2xl md:hover:-translate-y-2 transition-all ease-in-out shadow-xl md:shadow-none md:hover:shadow-xl  md:hover:border-[#ffdfb0]">
-
-                            <img src="{{ asset('icons/Icon_1.png') }}" alt="" class="w-24">
                             <h1 class="font-bold text-2xl mt-8 mb-4">Ärevus</h1>
                             <p>
                                 On meie keha reaktsioon 
@@ -124,7 +122,7 @@
                         </div>
                         <div class="w-full group h-full bg-white border-2 border-[#ffdfb0] md:border-[#FFF0DA] p-8 flex flex-col rounded-2xl md:hover:-translate-y-2 transition-all ease-in-out shadow-xl md:shadow-none md:hover:shadow-xl  md:hover:border-[#ffdfb0]">
 
-                            <img src="{{ asset('icons/Icon_2.png') }}" alt="" class="w-24">
+
                             <h1 class="font-bold text-2xl mt-8 mb-4">Ebakindlus</h1>
                             <p>
                                 Enesekindlus on aktsepteeriv, 
@@ -138,7 +136,7 @@
                         </div>
                         <div class="w-full group h-full bg-white border-2 border-[#ffdfb0] md:border-[#FFF0DA] p-8 flex flex-col rounded-2xl md:hover:-translate-y-2 transition-all ease-in-out shadow-xl md:shadow-none md:hover:shadow-xl  md:hover:border-[#ffdfb0]">
 
-                            <img src="{{ asset('icons/Icon_3.png') }}" alt="" class="w-24">
+
                             <h1 class="font-bold text-2xl mt-8 mb-4">Stress</h1>
                             <p>
                                 On pingeseisund, mis on reaktsioon 
