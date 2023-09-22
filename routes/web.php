@@ -30,10 +30,12 @@ Route::get('/', function () {
     ]);
 })->name('home');
 
-Route::get('/symptom', function () {
+Route::get('/symptom/{slug}', function ($slug) {
     $tags = Tags::paginate(15);
+    $symptom = Esmaabi::find($slug);
     return view('symptom', [
         'tags' => $tags,
+        'symptom' => $symptom,
     ]);
 })->name('symptom');
 
