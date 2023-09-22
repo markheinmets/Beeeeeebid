@@ -17,6 +17,7 @@ return new class extends Migration
             $table->string('name');
             $table->text('desctption');
             $table->string('visits');
+            $table->string('gallery');
             $table->timestamps();
         });
     }
