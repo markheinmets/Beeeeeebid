@@ -37,13 +37,14 @@
                 </button>
             </div>
             <!-- Sections -->
-            <div class="flex flex-col gap-4">
-                <section id="esmaabi" class=" w-full h-fit flex flex-col gap-8">
+            <div class="-mt-24 " id="esmaabi"></div>
+            <div  class="flex flex-col gap-4 mt-24">
+                <section  class=" w-full h-fit flex flex-col gap-8">
                     <h1 class="text-5xl font-bold text-[#331B3B]">Esmaabi</h1>
                     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
                         @foreach ($esmaabi as $abi)
                             <div class="w-full group h-full bg-white border-2 border-[#ffdfb0] md:border-[#FFF0DA] p-8 flex flex-col rounded-2xl md:hover:-translate-y-2 transition-all ease-in-out shadow-xl md:shadow-none md:hover:shadow-xl  md:hover:border-[#ffdfb0]">
-                                <img src="{{ asset('images/Icon_1.png') }}" alt="" class="w-24">
+                                <img src="{{ asset('images/' . $abi->image) }}" alt="" class="w-24">
                                 <h1 class="font-bold text-2xl mt-8 mb-4">{{ $abi->name }}</h1>
                                 <p>
                                     Langsung dari Kebun Sendiri yang 
@@ -57,10 +58,11 @@
                         @endforeach
                     </div>
                     <div class="w-full h-fit flex justify-end">
-                    <a href="{{ route('home') }}" class="bg-[#FFD79F] rounded-[100px] py-4 px-8 text-[#331B3B] text-lg font-semibold flex w-fit border-2 border-[#FB9333] md:border-[#FFD79F] md:hover:border-[#FB9333] transition-colors ease-in-out">Tagasi avalehele</a>
+                    <a href="{{ route('home') }}" class="bg-[#FFD79F] rounded-[100px] py-4 px-8 text-[#331B3B] text-lg font-semibold flex w-fit border-2 border-[#FB9333] md:border-[#FFD79F] md:hover:border-[#FB9333] transition-colors ease-in-out">Vaata veel</a>
                     </div>
                 </section>
-                <section id="vaimse-tervise-esmaabi" class=" w-full h-fit flex flex-col gap-8">
+                <div class="-mt-24 " id="vaimse-tervise-esmaabi"></div>
+                <section id="vaimse-tervise-esmaabi" class=" w-full h-fit flex flex-col gap-8 scroll-ms-44 mt-24">
                     <h1 class="text-5xl font-bold text-[#331B3B]">Vaimese tervise esmaabi</h1>
                     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
                         <div class="w-full group h-full bg-white border-2 border-[#ffdfb0] md:border-[#FFF0DA] p-8 flex flex-col rounded-2xl md:hover:-translate-y-2 transition-all ease-in-out shadow-xl md:shadow-none md:hover:shadow-xl  md:hover:border-[#ffdfb0]">
@@ -101,7 +103,7 @@
                         </div>
                     </div>
                     <div class="w-full h-fit flex justify-end">
-                    <a href="{{ route('home') }}" class="bg-[#FFD79F] rounded-[100px] py-4 px-8 text-[#331B3B] text-lg font-semibold flex w-fit border-2 border-[#FB9333] md:border-[#FFD79F] md:hover:border-[#FB9333] transition-colors ease-in-out">Tagasi avalehele</a>
+                    <a href="{{ route('home') }}" class="bg-[#FFD79F] rounded-[100px] py-4 px-8 text-[#331B3B] text-lg font-semibold flex w-fit border-2 border-[#FB9333] md:border-[#FFD79F] md:hover:border-[#FB9333] transition-colors ease-in-out">Vaata veel</a>
                     </div>
                 </section>
                 <section id="ennetavad-tegevused" class=" w-full h-fit flex flex-col gap-8">
@@ -145,7 +147,7 @@
                         </div>
                     </div>
                     <div class="w-full h-fit flex justify-end">
-                    <a href="{{ route('home') }}" class="bg-[#FFD79F] rounded-[100px] py-4 px-8 text-[#331B3B] text-lg font-semibold flex w-fit border-2 border-[#FB9333] md:border-[#FFD79F] md:hover:border-[#FB9333] transition-colors ease-in-out">Tagasi avalehele</a>
+                    <a href="{{ route('home') }}" class="bg-[#FFD79F] rounded-[100px] py-4 px-8 text-[#331B3B] text-lg font-semibold flex w-fit border-2 border-[#FB9333] md:border-[#FFD79F] md:hover:border-[#FB9333] transition-colors ease-in-out">Vaata veel</a>
                     </div>
                 </section>
             </div>
