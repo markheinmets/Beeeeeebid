@@ -3,6 +3,7 @@
 use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
 use App\Models\Tags;
+use App\Models\Esmaabi;
 
 /*
 |--------------------------------------------------------------------------
@@ -21,9 +22,11 @@ use App\Models\Tags;
 
 Route::get('/', function () {
     $tags = Tags::paginate(15);
+    $esmaabi = Esmaabi::paginate(3);
 
     return view('home', [
         'tags' => $tags,
+        'esmaabi' => $esmaabi,
     ]);
 })->name('home');
 
@@ -37,6 +40,10 @@ Route::get('/symptom', function () {
 Route::get('/numbers', function () {
     return view('numbers');
 })->name('numbers');
+
+Route::get('/first-aid/{slug}', function () {
+    return view('esmaabi');
+})->name('esmaabi');
 
 Route::get('/blog', function () {
     return view('blog');
