@@ -34,6 +34,12 @@
                 <!-- Page Content -->
                 <main class="pt-24">
                     {{ $slot }}
+                    <footer class="bg-[#FFDFC1]">
+                        <div class="contents text-center">
+                            <p class="text-[36px]">Meie info on üle vaadatud </p>
+                            <p class="text-[36px]">spetsialistide poolt</p>
+                        </div>
+                    </footer>
                 </main>
             </div>
         </div>
