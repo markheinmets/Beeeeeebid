@@ -30,3 +30,7 @@
 - Merilyn Tohv - Oskan clone projekti tööle panna, oskan ühendada laraveli lehti.
 - Kevin Kangur - sain teada rohkem Laravelist ja Tailwindist
 - Ketrin Vanatoa - Figma disaini tegemise oskus.
+
+## Lingid
+- Figma: https://www.figma.com/file/DDzWd6rIe6t8CDYfI9jyLJ/Untitled?type=design&node-id=0%3A1&mode=design&t=4YsjJNgDt582sqni-1
+- Live versioon: https://beebid.tak21matlik.itmajakas.ee/
