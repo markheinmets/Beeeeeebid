@@ -35,7 +35,7 @@
 - Kevin Kangur - sain teada rohkem Laravelist ja Tailwindist
 - Ketrin Vanatoa - Figma disaini tegemise oskus.
 - Romello Lasn - sain teada Laravelist
-- Sain teada lihtsama viisi kuidas laraveli projekti zone laadida
+- Karl Andreas Mätlik - Sain teada lihtsama viisi kuidas laraveli projekti zone laadida
 
 ## Lingid
 - Figma: https://www.figma.com/file/DDzWd6rIe6t8CDYfI9jyLJ/Untitled?type=design&node-id=0%3A1&mode=design&t=4YsjJNgDt582sqni-1
