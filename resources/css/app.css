@@ -5,3 +5,9 @@
 body {
     font-family: 'Poppins', sans-serif;
 }
+
+
+html {
+    scroll-behavior: smooth;
+    scroll-margin-top: 28px;
+  }
